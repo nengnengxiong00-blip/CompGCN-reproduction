@@ -1,0 +1,56 @@
+name: compgcn
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=52_gnu
+  - ca-certificates=2026.8.13=h06a4308_0
+  - ld_impl_linux-64=2.44=h9e0c5a2_3
+  - libffi=3.4.8=h06d3fd0_3
+  - libgcc=15.2.0=h69a1729_8
+  - libgcc-ng=15.2.0=h166f726_8
+  - libstdcxx=15.2.0=h39759b7_8
+  - libstdcxx-ng=15.2.0=hc03a8fd_8
+  - libxcb=1.17.0=h9b100fa_0
+  - libzlib=1.3.2=h47b2149_0
+  - ncurses=6.6=hfaaeb4e_0
+  - openssl=3.5.8=h1b28b03_0
+  - pip=24.2=py38h06a4308_0
+  - pthread-stubs=0.3=h47b2149_2
+  - python=3.8.20=he870216_0
+  - readline=8.3=hc2a1206_0
+  - setuptools=75.1.0=py38h06a4308_0
+  - sqlite=3.53.4=h795bf6d_0
+  - tk=8.6.15=h54e0aa7_0
+  - wheel=0.44.0=py38h06a4308_0
+  - xorg-libx11=1.8.13=h65de747_0
+  - xorg-libxau=1.0.12=h9b100fa_0
+  - xorg-libxdmcp=1.1.5=h9b100fa_0
+  - xorg-xorgproto=2025.1=h47b2149_0
+  - xz=5.8.2=h448239c_0
+  - zlib=1.3.2=h47b2149_0
+  - pip:
+      - certifi==2026.7.22
+      - charset-normalizer==3.5.1
+      - idna==3.15
+      - joblib==1.4.2
+      - numpy==1.24.4
+      - ordered-set==3.1
+      - pillow==10.4.0
+      - pyyaml==6.0.3
+      - requests==2.32.4
+      - scikit-learn==1.3.2
+      - scipy==1.10.1
+      - threadpoolctl==3.5.0
+      - torch==1.13.1+cu117
+      - torch-scatter==2.1.1+pt113cu117
+      - torchaudio==0.13.1+cu117
+      - torchvision==0.14.1+cu117
+      - tqdm==4.70.1
+      - typing-extensions==4.13.2
+      - urllib3==2.2.3
+prefix: /root/miniconda3/envs/compgcn
