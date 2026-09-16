@@ -1,0 +1,8 @@
+Dataset: FB15k-237
+Model: CompGCN
+Score Function: TransE
+Composition: mult
+
+Test Tail MRR: 0.41925
+Test Head MRR: 0.23091
+Test Avg MRR: 0.32508
