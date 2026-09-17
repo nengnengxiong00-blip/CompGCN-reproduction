@@ -1,0 +1,9 @@
+Dataset: FB15k-237
+Model: CompGCN
+
+Score Function: ConvE
+Composition: corr
+
+Test Tail MRR: 0.37459
+Test Head MRR: 0.17722
+Test Avg MRR: 0.27590
