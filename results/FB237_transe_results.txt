@@ -1,0 +1,12 @@
+Dataset: FB15k-237
+
+Model: CompGCN
+
+TransE-sub
+Test Avg MRR: 0.28766
+
+TransE-mult
+Test Avg MRR: 0.32508
+
+TransE-corr
+Test Avg MRR: 0.22485
