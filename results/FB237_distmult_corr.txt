@@ -1,0 +1,12 @@
+Dataset: FB15k-237
+Model: CompGCN
+
+Score Function: DistMult
+Composition: corr
+
+gcn_dim: 150
+gcn_layer: 2
+
+Test Tail MRR: 0.34472
+Test Head MRR: 0.14869
+Test Avg MRR: 0.24670
