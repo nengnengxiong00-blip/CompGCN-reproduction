@@ -1,0 +1,20 @@
+Dataset: FB15k-237
+
+Model: Attention-gated CompGCN
+
+Score Function: DistMult
+
+Composition: mult
+
+Attention:
+Message-level Attention Gate
+
+Best Epoch: 180
+
+Valid Tail MRR: 0.43827
+Valid Head MRR: 0.23962
+Valid Avg MRR: 0.33894
+
+Test Tail MRR: 0.43043
+Test Head MRR: 0.23761
+Test Avg MRR: 0.33402
