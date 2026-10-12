@@ -98,11 +98,9 @@ def cconv(a, b):
 )
 
 def ccorr(a, b):
-	return torch.fft.irfft(
-    com_mult(
-        torch.conj(torch.fft.rfft(a, dim=-1)),
-        torch.fft.rfft(b, dim=-1)
-    ),
-    n=a.shape[-1],
-    dim=-1
-)
+        return torch.fft.irfft(
+                torch.conj(torch.fft.rfft(a, dim=-1))
+                * torch.fft.rfft(b, dim=-1),
+                n=a.shape[-1],
+                dim=-1
+        )
